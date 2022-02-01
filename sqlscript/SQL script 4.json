@@ -1,0 +1,17 @@
+{
+	"name": "SQL script 4",
+	"properties": {
+		"content": {
+			"query": "--create TABLE dev.employee (id int, name VARCHAR(50), salary int)\n--insert into dev.employee values(101, 'Tom', 1243434)\n--insert into dev.employee values(102, 'Raj', 34334)\nselect * from dev.employee\n--delete from dev.employee",
+			"metadata": {
+				"language": "sql"
+			},
+			"currentConnection": {
+				"databaseName": "matdevsqlpool",
+				"poolName": "matdevsqlpool"
+			},
+			"resultLimit": 5000
+		},
+		"type": "SqlQuery"
+	}
+}
